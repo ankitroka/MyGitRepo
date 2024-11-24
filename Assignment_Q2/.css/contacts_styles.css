@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.banner {
+    text-align: center;
+    background-color: #eb4a68;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+
+h1, h2{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.download-buttons a {
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.app-store {
+    color: white;
+    background-color: #494949;
+}
+
+.google-play {
+    color: black;
+    background-color: #dfdfdf;
+}
+
+.social-media {
+    padding: 10%;
+    background-color: white;
+    margin-top: 1rem;
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0.5rem;
+    text-decoration: none;
+    color: #555;
+}
+
+p {
+    color: #555;
+    margin-top: 2rem;
+    font-size: 0.875rem;
+}

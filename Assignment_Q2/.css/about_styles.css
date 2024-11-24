@@ -1,0 +1,56 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f99494;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Testimonial Section */
+.testimonial {
+    padding: 50px 10%;
+}
+
+.quote p {
+    font-size: 1.5rem;
+    font-family: 'Times New Roman';
+    margin-bottom: 30px;
+}
+
+.author {
+    margin-top: 20px;
+}
+
+.author-image {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.author-name {
+    color: white;
+    font-style: italic;
+}
+
+.brands {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.brand-logo {
+    width: 100px;
+    height: auto;
+}
